@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BTS Trivia Quiz</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+
+    <body>
+        <ul class="top">
+            <li class="top"><button id="view-score">View Scores</button></li> <!-- top left highscore link -->
+            <li class="top"><a id="start-time">Time: 60</a><div id="timer" style="display: none;"></div></li> <!-- top right quiz time -->
+        </ul>
+
+        <div class="main">
+            <div class="container-left">
+                <div class="container-title">BTS Quiz Challenge</div>
+
+                <div class="problem-card">
+
+                    <div id="total-score">Score:</div>      
+                    
+                    <div id="save-score-form"> <!-- container for form to save score -->
+                        <form id="score-form">
+                            <label for="name">Enter your name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <button type="submit" id="submit">Submit</button>
+                        </form>
+                    </div> 
+
+                    <div id="question-container"></div> <!-- container for the question -->
+                    <div id="choices-container"></div> <!-- container for the answer choices -->
+                
+                    <div class="result"> <!-- container for incorrect/correct -->
+                        <div id="accuracy">😶</div> 
+                    </div>
+                    
+                </div>
+
+                <div class="buttons-container"> <!-- container for buttons, prevents any redistribution of page when the buttons are hidden -->
+                    <button class= "button" id="start"></button>
+                    <button class= "button" id="start-over" style="display: none;"></button>
+                </div>
+
+            </div>
+
+            <div class="container-right"> <!-- container for high scores list -->
+                <div class="container-title">High Scores</div>
+                <div class="high-scores-card">
+                    <ol id="high-scores-list"></ol> <!-- high scores are added here via js -->
+                </div>
+                <div class="buttons-container">
+                    <button class= "button" id="reset">Reset Scores</button>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+
+</html>
