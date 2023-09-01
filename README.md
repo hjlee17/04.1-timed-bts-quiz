@@ -2,19 +2,15 @@
 
 ## Description
 
-Deploy a website where a user can take a timed quiz on JavaScript fundamentals. The application will store up to 8 high scores, and users can compare their scores to other users.
-
-This website functional but not friendly for mobile devices. 
+Application where a user can take a timed quiz of BTS trivia. The application will store up to 8 high scores, and users can compare their scores to other users.
+This website is functional, but not friendly for mobile devices. 
 
 ## Installation
 
 n/a
 
 ## Usage
-Link to deployed application: https://hjlee17.github.io/04-timed-javascript-fundamentals-quiz/ 
-
-A user can answer a series of prompts to generate a password that meets their criteria. 
-![Timed JavaScript Fundamentals Quiz Application.](assets/images/sc-window.png)
+Link to deployed application: https://hjlee17.github.io/04.1-timed-bts-quiz/
 
 ## Credits
 
