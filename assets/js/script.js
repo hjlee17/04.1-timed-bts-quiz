@@ -81,12 +81,12 @@ var quizProblems = [
     },
     {   // remove q
         question: "which one is not one of jin's sugar gliders' names?",
-        choices: ["1. 튀김", "2. 오뎅", "3. 국물", "4. 어묵"],
+        choices: ["1. 튀김 (tuigim-fried food)", "2. 오뎅 (odeng-fishcake)", "3. 국물 (gukmul-soup)", "4. 어묵 (eomuk-fishcake)"],
         correctAnswer: 0 // [0] is the correct choice
     },
     {   // remove q
         question: "as of 8/31/23, suchwita episodes average about 5.2M views, but what is the average of eps with other members?",
-        choices: ["1. 5M", "2. 6M", "3. 7M", "4. 8M"],
+        choices: ["1. ~5M", "2. ~6M", "3. ~7M", "4. ~8M"],
         correctAnswer: 3 // [3] is the correct choice
     },
     {   // remove q
@@ -105,8 +105,8 @@ var quizProblems = [
         correctAnswer: 3 // [3] is the correct choice
     },
     {   // remove q
-        question: "what was jk's stage name when he was on 복면가왕?",
-        choices: ["1. 나무꾼", "2. 펜싱맨", "3. 땡벌", "4. 기타맨"],
+        question: "what was jk's stage name when he was on 복면가왕 (masked singer)?",
+        choices: ["1. 나무꾼, woodcutter", "2. 펜싱맨, fencing man", "3. 땡벌, tired bumblebee", "4. 기타맨, guitar man"],
         correctAnswer: 1 // [1] is the correct choice
     },
     ];
